@@ -1,0 +1,10 @@
+L(1)=Link([0 675 260 -pi/2]);
+L(2)=Link([0 0 680 0]);
+L(3)=Link([0 0 35 -pi/2]);
+L(4)=Link([0 670 0 pi/2]);
+L(5)=Link([0 0 0 -pi/2]);
+L(6)=Link([0 115 0 0]);
+Rob=SerialLink(L);
+Rob.name='KUKA KR 16-2';
+Q1=[deg2rad(-185) deg2rad(-155) deg2rad(-130) deg2rad(-350) deg2rad(-130) deg2rad(-250)];
+Q2=[deg2rad(185) deg2rad(35) deg2rad(154) deg2rad(350) deg2rad(130) deg2rad(350)];
